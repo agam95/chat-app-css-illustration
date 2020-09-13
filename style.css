@@ -10,7 +10,7 @@ body{
 }
 
 section{
-    
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,6 +111,7 @@ section{
 
 .images img{
     border-radius: 10px;
+    width: 55px;
 }
 
 .payment{
@@ -211,8 +212,8 @@ section{
     }
 
     .phone{
-        width: 20%;
-        padding: 1%;
+        width: 15%;
+        padding: .5%;
     }
 
     .facts{
@@ -223,13 +224,13 @@ section{
     }
 
     .purple{
-        width: 20%;
+        width: 30%;
         height: 80vh;
         border-radius:0px 0px 1000px 1000px;
     }
 
     .grey{
-        width: 20%;
+        width: 30%;
         height: 80vh;
         border-radius:1000px 55px 0px 0px;
     }
