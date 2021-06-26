@@ -1,99 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Agam Singh</title>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="purple"></div>
-  <div class="grey"></div>
-  <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Agam Singh</title>
+  </head>
+  <body>
     <div class="phone">
-      <div class="message">
-        <div class="background">
-          <div class="camera"></div>
-          <div class="head">
-            <div class="leftPart">
-              <i class="far fa-angle-left"></i>
-              <img src="images/avatar.jpg" alt="">
-              <div class="description">
-                Samuel Green <br>
-                <p>Available to Walk</p>
-              </div>
-            </div>
-            <div class="threeDots">
-              <i class="fas fa-ellipsis-v"></i>
+      <div class="phone-header">
+        <div class="phone-header-camera"></div>
+        <div class="phone-header-description">
+          <div class="phone-header-left">
+            <i class="uil uil-angle-left"></i>
+            <img src="images/avatar.jpg" alt="" />
+            <div class="profile-name">
+              <p class="name">Samuel Green</p>
+              <p class="availability">Available to Walk</p>
             </div>
           </div>
+
+          <i class="uil uil-ellipsis-v"></i>
         </div>
-        
-        
-        <div class="leftMsg">
-          That sounds great. I’d be happy to discuss more.
+      </div>
+      <div class="phone-body">
+        <div class="message left">
+          <p>
+            That sounds great, I'd be <br />
+            happy to discuss more.
+          </p>
         </div>
-        <div class="leftMsg">
-          Could you send over some pictures of your dog, please?
+        <div class="message left">
+          <p>
+            Could you send over some <br />
+            pictures of your dog please
+          </p>
         </div>
-        <div class="right">
-            <div class="images">
-              <img src="images/dog-image-1.jpg" alt="">
-              <img src="images/dog-image-2.jpg" alt="">
-              <img src="images/dog-image-3.jpg" alt="">
-          </div>
+        <div class="pictures">
+          <img src="images/dog-image-1.jpg" alt="" />
+          <img src="images/dog-image-2.jpg" alt="" />
+          <img src="images/dog-image-3.jpg" alt="" />
         </div>
-        <div class="right">
-          <div class="rightMsg">
-            Here are a few pictures. She’s a happy girl!
-          </div>
+        <div class="message right">
+          <p>
+            Here are a few pictures. She's <br />
+            a happy girl!
+          </p>
         </div>
-        <div class="right">
-          <div class="rightMsg">
-            Can you make it?
-          </div>
+        <div class="message right">
+          <p>Can you make it?</p>
         </div>
-        <div class="leftMsg">
-          She looks so happy! The time we discussed works. How long shall I take her out for?
+        <div class="message left">
+          <p>
+            She looks so happy! The time <br />
+            we discussed works. How <br />
+            long shall I take her out for?
+          </p>
         </div>
         <div class="payment">
-          <div class="paymentOne">
-            <i class="far fa-circle"></i>
-            30 minute walk
+          <div class="payment-left">
+            <i class="uil uil-circle"></i>
+            <p>30 minute walk</p>
           </div>
-          <p>$29</p>
+
+          <p class="amount">$29</p>
         </div>
         <div class="payment">
-          <div class="paymentOne">
-            <i class="far fa-circle"></i>
-            1 hour walk
+          <div class="payment-left">
+            <i class="uil uil-circle"></i>
+            <p>1 hour walk</p>
           </div>
-          <p>$49</p>
+          <p class="amount">$49</p>
         </div>
-        <div class="middleSend">
+        <div class="type-message">
+          <p>Type a message...</p>
           <div class="send">
-            Type a message…
-            <div class="angleRight">
-              <i class="fas fa-angle-right"></i>
-            </div>
+            <i class="uil uil-angle-right"></i>
           </div>
         </div>
-        
       </div>
     </div>
-    <div class="facts">
-      <h2>Simple booking</h2>
-    
-      <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-        discuss arrangements and make bookings. Once the walk has been completed you can rate 
-        your walker and book again all through the chat.</p> 
-
+    <div class="description">
+      <h1 class="description-head">Simple booking</h1>
+      <p class="description-text">
+        Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and make bookings. Once the walk
+        has been completed you can rate your walker and book again all through
+        the chat.
+      </p>
     </div>
-    
-  </section>
-
-</body>
+    <div class="purpleBody"></div>
+    <div class="greybody"></div>
+  </body>
 </html>
